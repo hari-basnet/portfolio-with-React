@@ -1,1 +1,1 @@
-# Simple react app for the portfolor
+# Simple react app for the portfolio
