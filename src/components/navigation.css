@@ -1,0 +1,30 @@
+nav {
+  font-family: "Montserrat";
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__picture-logo {
+  text-align: right;
+  margin: 15px;
+  width: 22%;
+  margin-right: 4px;
+}
+.nav__list {
+  list-style: none;
+}
+
+.nav__list-item {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.nav__link {
+  text-decoration: none;
+  padding: 1px 15px;
+  color: #fff;
+  font-size: 140%;
+}
