@@ -1,0 +1,38 @@
+.hero-image {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 1%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.hero--image__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero--image__text h1 {
+  color: white;
+  font-size: 325%;
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  text-shadow: 1px 1px 15px #000;
+}
+.hero--image__text p {
+  flex: 1;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  align-items: center;
+  padding-top: 15px;
+  text-shadow: 1px 1px 15px #000;
+}
