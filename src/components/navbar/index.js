@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Logo from "../assets/images/myLogo.png";
-import '../components/navigation.css'
+import Logo from "../../assets/images/myLogo.png";
+import './styles.css'
 
 
 
-class Navigation extends Component {
+class NavBar extends Component {
     render() {
 
         return (
@@ -30,4 +30,4 @@ class Navigation extends Component {
     }
 }
 
-export default Navigation;
+export default NavBar;

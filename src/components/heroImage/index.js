@@ -1,8 +1,8 @@
 import React from 'react';
-import './heroImage.css';
-import heroImage from '../assets/images/hero-image.JPG';
-import headerData from '../data/headerData';
-import Navigation from '../components/Navigation';
+import heroImage from '../../assets/images/hero-image.JPG';
+import headerData from '../../data/headerData';
+import NavBar from '../navbar';
+import './styles.css';
 
 const HeroImage = () => {
     const background = {
@@ -10,7 +10,7 @@ const HeroImage = () => {
     }
     return (
         <div style={background} className="hero__image">
-            <Navigation />
+            <NavBar />
             <div className="hero__image-text">
                 <h1>{headerData.heroImageTitle}</h1>
                 <p>{headerData.heroImageSubTitle}</p>
